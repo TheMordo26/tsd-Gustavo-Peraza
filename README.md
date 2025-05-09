@@ -69,6 +69,15 @@ Esta es una prueba técnica realizada para la empresa GetechnologiesMx utilizand
   **Ejemplo en POSTMAN:**
   `GET http://localhost:8080/api/factura/persona/GEPP26`
 
+## Acceso a la base de datos
+
+La aplicación utiliza una base de datos H2. Para ingresar, debe hacer lo siguiente
+- **URL en el navegador:** `http://localhost:8080/h2-console`
+- **Driver Class:** `org.h2.Driver`
+- **JDBC URL:** `jdbc:h2:mem:personadb`
+- **Username:** `gus`
+- **Password:** `Dejar en blanco`
+
 ## Cómo correr el proyecto
 
 1. Clona el repositorio:
