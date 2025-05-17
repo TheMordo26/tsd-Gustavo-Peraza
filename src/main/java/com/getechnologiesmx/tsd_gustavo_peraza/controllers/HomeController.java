@@ -32,7 +32,7 @@ public class HomeController {
                 }
             </pre>
 
-            <h3>Ejemplo de JSON para crear una persona (POST /api/factura):</h3>
+            <h3>Ejemplo de JSON para crear una factura (POST /api/factura):</h3>
             <pre>
                 {
                 "fecha": "2025-05-09",
